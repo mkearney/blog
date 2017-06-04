@@ -1,0 +1,103 @@
+baseurl = "https://mkearney.github.io/blog"
+languageCode = "en-us"
+title = "mwk blog"
+disqusShortname = "kearneymw"
+googleAnalytics = "UA-64959413-1"
+paginate = 5
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus-theme"
+publishDir = "docs"
+relativeURLs = false
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+[params]
+    # Tell me who you are
+    author = "Michael W. Kearney"
+    bio1 = "Assistant Professor"
+    bio2 = "School of Journalism"
+    bio3 = "Informatics Institute"
+    location = "University of Missouri"
+    site_description = "Mike Kearney's blog"
+    copyright = "Michael W. Kearney"
+    avatar = "css/images/fav.png"
+    gravatar = "" #"mike.wayne.kearney@gmail.com"
+    logo = "css/images/fav.png"
+    disable_mathjax = false # set to true to disable MathJax
+
+    # define which types of pages should be shown.
+    # By default the type with the most regular pages
+    mainSections = ["post"]
+
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
+
+    # Add custom assets with their paths relative to the static folder
+    custom_css = ["highlight/styles/atom-one-light.css"]
+    custom_js  = ["highlight/highlight.pack.js"]
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    before = true
+    label  = "Blog"
+    link   = "/blog"
+
+[[params.menu]]
+    before = true
+    label  = "About"
+    link   = "http://mikewk.com"
+
+[[params.menu]]
+    before = false
+    label  = "Categories"
+    link   = "categories/"
+
+# Enter a link for the follow button on the left
+[params.profile]
+    follow_button = "https://twitter.com/kearneymw"
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    github          = "mkearney"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = "mikewk"
+    slideshare      = ""
+    stackoverflow   = "5435428/mkearney"
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "kearneymw"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = true
+    categories = true
+    tags = true
+    tag_cloud = true

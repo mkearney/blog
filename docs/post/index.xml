@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mwk blog</title>
+    <link>https://mkearney.github.io/blog/post/</link>
+    <description>Recent content in Posts on mwk blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michael W. Kearney</copyright>
+    <lastBuildDate>Thu, 01 Jun 2017 17:53:27 -0500</lastBuildDate>
+    
+	<atom:link href="https://mkearney.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to rtweet</title>
+      <link>https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/</link>
+      <pubDate>Thu, 01 Jun 2017 17:53:27 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/</guid>
+      <description>Getting started with Twitter data Twitter data were already trendy, but the unpresidented 2016 U.S. election has escalated things to a fever pitch. One of the biggest drivers of the trend is the widespread availability of Twitter data. Twitter makes much of its user-generated data freely available to the public via Application Program Interfaces (APIs). APIs refer to sets of protocols and procedures for interacting with sites. Twitter maintains several APIs.</description>
+    </item>
+    
+    <item>
+      <title>R user</title>
+      <link>https://mkearney.github.io/blog/2017/05/22/r-user/</link>
+      <pubDate>Mon, 22 May 2017 13:58:39 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/05/22/r-user/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Starting a blog</title>
+      <link>https://mkearney.github.io/blog/2017/05/20/starting-a-blog/</link>
+      <pubDate>Sat, 20 May 2017 21:01:35 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/05/20/starting-a-blog/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

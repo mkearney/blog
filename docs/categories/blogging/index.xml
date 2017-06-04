@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on mwk blog</title>
+    <link>https://mkearney.github.io/blog/categories/blogging/</link>
+    <description>Recent content in Blogging on mwk blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michael W. Kearney</copyright>
+    <lastBuildDate>Sat, 20 May 2017 21:01:35 -0500</lastBuildDate>
+    
+	<atom:link href="https://mkearney.github.io/blog/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Starting a blog</title>
+      <link>https://mkearney.github.io/blog/2017/05/20/starting-a-blog/</link>
+      <pubDate>Sat, 20 May 2017 21:01:35 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/05/20/starting-a-blog/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

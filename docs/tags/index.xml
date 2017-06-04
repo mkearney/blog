@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on mwk blog</title>
+    <link>https://mkearney.github.io/blog/tags/</link>
+    <description>Recent content in Tags on mwk blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michael W. Kearney</copyright>
+    <lastBuildDate>Sat, 20 May 2017 21:01:35 -0500</lastBuildDate>
+    
+	<atom:link href="https://mkearney.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reasons To Blog</title>
+      <link>https://mkearney.github.io/blog/tags/reasons-to-blog/</link>
+      <pubDate>Sat, 20 May 2017 21:01:35 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/tags/reasons-to-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rtweet</title>
+      <link>https://mkearney.github.io/blog/tags/rtweet/</link>
+      <pubDate>Thu, 01 Jun 2017 17:53:27 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/tags/rtweet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
