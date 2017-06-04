@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on mwk blog</title>
+    <link>https://mkearney.github.io/blog/categories/r/</link>
+    <description>Recent content in R on mwk blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michael W. Kearney</copyright>
+    <lastBuildDate>Thu, 01 Jun 2017 17:53:27 -0500</lastBuildDate>
+    
+	<atom:link href="https://mkearney.github.io/blog/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to rtweet</title>
+      <link>https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/</link>
+      <pubDate>Thu, 01 Jun 2017 17:53:27 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/</guid>
+      <description>Getting started with Twitter data Installing rtweet Install from CRAN using install.packages.
+## install from CRAN install.packages(&amp;quot;rtweet&amp;quot;)  Alternatively, install the most recent [development] version from Github using install_github (from the devtools package).
+## install from Github (dev version) if (!&amp;quot;devtools&amp;quot; %in% installed.packages()) { install.packages(&amp;quot;devtools&amp;quot;) } devtools::install_github(&amp;quot;mkearney/rtweet&amp;quot;, build_vignettes = TRUE)  API authorization I&amp;rsquo;ve tried to make the API token [oauth] process as painless as possible. That&amp;rsquo;s why I&amp;rsquo;ve included the &amp;ldquo;auth&amp;rdquo; vignette, which ships with the package and contains step-by-step instructions on how to create and manage your Twitter API token.</description>
+    </item>
+    
+    <item>
+      <title>R user</title>
+      <link>https://mkearney.github.io/blog/2017/05/22/r-user/</link>
+      <pubDate>Mon, 22 May 2017 13:58:39 -0500</pubDate>
+      
+      <guid>https://mkearney.github.io/blog/2017/05/22/r-user/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
