@@ -18,7 +18,9 @@
       <pubDate>Thu, 01 Jun 2017 17:53:27 -0500</pubDate>
       
       <guid>https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/</guid>
-      <description>Getting started with Twitter data Twitter data were already trendy, but the unpresidented 2016 U.S. election has escalated things to a fever pitch. One of the biggest drivers of the trend is the widespread availability of Twitter data. Twitter makes much of its user-generated data freely available to the public via Application Program Interfaces (APIs). APIs refer to sets of protocols and procedures for interacting with sites. Twitter maintains several APIs.</description>
+      <description>Getting started with Twitter data Installing rtweet Install from CRAN using install.packages.
+## install from CRAN install.packages(&amp;quot;rtweet&amp;quot;)  Alternatively, install the most recent [development] version from Github using install_github (from the devtools package).
+## install from Github (dev version) if (!&amp;quot;devtools&amp;quot; %in% installed.packages()) { install.packages(&amp;quot;devtools&amp;quot;) } devtools::install_github(&amp;quot;mkearney/rtweet&amp;quot;, build_vignettes = TRUE)  API authorization I&amp;rsquo;ve tried to make the API token [oauth] process as painless as possible. That&amp;rsquo;s why I&amp;rsquo;ve included the &amp;ldquo;auth&amp;rdquo; vignette, which ships with the package and contains step-by-step instructions on how to create and manage your Twitter API token.</description>
     </item>
     
   </channel>
