@@ -3,43 +3,15 @@ banner = "banners/rtweet.png"
 categories = ["R", "twitter"]
 date = "2017-06-01T17:53:27-05:00"
 description = "rtweet"
-images = ["figure/unnamed-chunk-8-1.png","figure/unnamed-chunk-10-1.png","figure/unnamed-chunk-17-1.png","figure/unnamed-chunk-22-1.png","figure/unnamed-chunk-28-1.png"]
+images = []
 menu = ""
 tags = ["rtweet"]
 title = "Intro to rtweet"
 +++
 
 
-
-
 ## Getting started with Twitter data
 
-Twitter data were already trendy, but the *unpresidented* 2016 U.S.
-election has escalated things to a fever pitch. One of the biggest drivers
-of the trend is the widespread availability of Twitter data. Twitter
-makes much of its user-generated data freely available to the public
-via Application Program Interfaces (APIs). APIs refer to sets of
-protocols and procedures for interacting with sites. Twitter maintains
-several APIs. The two most condusive to data collection are the REST
-API and the stream API, both of which I describe below.
-
-Twitter's REST API provides a set of protocols for exploring and
-interacting with Twitter data related to user statuses (tweets), user
-profiles and timelines, and user network connections. The data are
-restful in that they have been archived by Twitter. Navigating these
-resting endpoints can, at times, be resource intensive, but it also
-makes it possible to perform highly complex and specific queries.
-
-Twitter data not yet archived and accessible via the REST API can be
-accessed using Twitter's stream API. As its name suggests, the stream
-API provides users with a live stream of Twitter data. Because the
-data are streamed, or pushed, to the user, the stream API reduces
-overhead associated with performing queries on archived data sources.
-This makes it possible to collect large amounts of data very quickly
-and with relatively little strain on computational resources. The
-downside to the stream API is that it is limited to prospective
-(tracking, monitoring, etc.) but not retrospective (surveying,
-searching, etc.) queries.
 
 ### Installing rtweet
 
@@ -198,7 +170,7 @@ agg
 ts_plot(agg)
 ```
 
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
+![](../../../../figure/unnamed-chunk-8-1.png)
 
 The plot produced by `ts_plot` depends on whether the user has
 installed *ggplot2*, which is a suggested but not required package
@@ -230,7 +202,7 @@ p1 <- ts_plot(ica17, "hours") +
 p1
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
+![](../../../../figure/unnamed-chunk-10-1.png)
 
 ### plain_tweets
 
@@ -408,13 +380,14 @@ suppressWarnings(wordcloud::wordcloud(
     freq = wrds,
     min.freq = 5,
     random.color = FALSE,
+    random.order = FALSE,
     colors = cols,
     family = "Roboto Condensed",
-    scale = c(4, .25))
+    scale = c(4.75, .5))
 )
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17-1.png)
+![](../../../../figure/unnamed-chunk-17-1.png)
 
 <!-- <p align="center">
 <img src="img/p2.png" alt="p2">
@@ -504,7 +477,7 @@ p3 <- p3 +
 p3
 ```
 
-![plot of chunk unnamed-chunk-22](figure/unnamed-chunk-22-1.png)
+![](../../../../figure/unnamed-chunk-22-1.png)
 
 ### Tidy sentiment analysis
 
@@ -625,7 +598,7 @@ Which we can pass right along to *ggplot2* for the finish:
 ## plot data
 long_emotion_ts %>%
     ggplot(aes(x = created_at, y = score, color = query)) +
-    geom_point(aes(size = n)) +
+    geom_point() +
     geom_smooth(method = "loess") +
     facet_wrap(~ sentiment, scale = "free_y", nrow = 2) +
     theme_bw() +
@@ -640,7 +613,7 @@ long_emotion_ts %>%
     scale_x_datetime(date_breaks = "18 hours", date_labels = "%b %d")
 ```
 
-![plot of chunk unnamed-chunk-28](figure/unnamed-chunk-28-1.png)
+![](../../../../figure/unnamed-chunk-28-1.png)
 
 
 And that's it!
